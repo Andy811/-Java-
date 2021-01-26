@@ -9,7 +9,8 @@ public class Main {
         JavaB2 b2 = new JavaB2();
         JavaB3 b3 = new JavaB3();
         JavaB4 b4 = new JavaB4();
-        b4.b4();
+        JavaB5 b5 = new JavaB5();
+        b5.b5();
 
     }
 }
