@@ -1,13 +1,14 @@
-package com.andeji;
+//package com.andeji;
 
 import java.io.*;
 
 public class JavaB10 {
-    String arg[] = Main.arg;
-    StringBuffer sb = new StringBuffer("");
-    FileReader reader=null;
-    BufferedReader br = null;
+
     public void b10() throws IOException {
+        String arg[] = Main.arg;
+        StringBuffer sb = new StringBuffer("");
+        FileReader reader=null;
+        BufferedReader br = null;
         try {
 
             // FileReader reader = new FileReader("C://Hello.txt");

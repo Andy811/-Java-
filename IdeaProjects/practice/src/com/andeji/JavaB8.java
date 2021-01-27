@@ -1,11 +1,12 @@
-package com.andeji;
+//package com.andeji;
 
 public class JavaB8 {
 
-    int[] a = {1, 2, 3, 4};
-    String arg[] = Main.arg;
+
 
     public void b8() {
+        int[] a = {1, 2, 3, 4};
+        String arg[] = Main.arg;
         try {
             if (arg[0].equals("-a")&&arg.length==1) {
                 throw new Exception("Argument2 is aquired");
