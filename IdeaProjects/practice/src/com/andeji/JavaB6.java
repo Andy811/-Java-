@@ -9,10 +9,10 @@ public class JavaB6 {
             2.	如果傳入的參數不為數字是否會有錯誤？可能錯誤的原因是什麼？該如何改善？
             3.	將數字轉換為字串可以用什麼方法？
 */
-    String pa = Main.pa;
+    String arg[] = Main.arg;
     public void b6(){
 
-        System.out.println(Integer.parseInt(pa) + 10);
+        System.out.println(Integer.parseInt(arg[0]) + 10);
 
     }
 
