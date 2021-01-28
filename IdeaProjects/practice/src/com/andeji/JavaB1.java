@@ -1,4 +1,5 @@
-//package com.andeji;
+package com.andeji;
+
 
 import java.util.Scanner;
 public class JavaB1 {
@@ -14,9 +15,9 @@ public class JavaB1 {
         String str1 = scanner.nextLine();
         System.out.print("輸入的字串為: " + str1 + "  ");
         if (a.indexOf(str1) != -1) {
-            System.out.println("a字串中有你輸入的字串");
+            System.out.println("字串中有你輸入的字串");
         } else {
-            System.out.println("a字串中沒有你輸入的字串");
+            System.out.println("字串中沒有你輸入的字串");
         }
     }
 }

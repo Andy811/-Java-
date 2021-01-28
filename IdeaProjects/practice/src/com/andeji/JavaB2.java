@@ -1,4 +1,4 @@
-//package com.andeji;
+package com.andeji;
 
 public class JavaB2 {
     public void b2(){

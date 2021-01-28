@@ -1,4 +1,4 @@
-//package com.andeji;
+package com.andeji;
 
 public class JavaB6 {
     /*Java-B6

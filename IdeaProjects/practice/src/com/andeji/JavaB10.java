@@ -1,4 +1,4 @@
-//package com.andeji;
+package com.andeji;
 
 import java.io.*;
 
@@ -15,7 +15,6 @@ public class JavaB10 {
             reader = new FileReader(arg[0]);
             br = new BufferedReader(reader);
             String str = null;
-            System.out.println("哭哭饅頭");
             while ((str = br.readLine()) != null) {
                 sb.append(str + "\n");
                 System.out.println(str);
@@ -26,10 +25,9 @@ public class JavaB10 {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("finally");
             reader.close();
             br.close();
-            System.out.println("關了");
+            System.out.println("檔案已關閉");
         }
     }
 
