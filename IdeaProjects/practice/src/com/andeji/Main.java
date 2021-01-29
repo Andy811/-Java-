@@ -28,7 +28,7 @@ public class Main {
         JavaB9 b9 = new JavaB9();
         JavaB10 b10 = new JavaB10();
 
-/*
+
         System.out.println("選擇要執行的題目");
         Scanner scanner = new Scanner(System.in);
         int num=scanner.nextInt();
@@ -48,26 +48,26 @@ public class Main {
             case 5:
                 b5.b5();
                 break;
-        }*
+        }
 
-       // b6.b6();
-        /*try {
+      //  b6.b6();
+       /* try {
             b7.b7();
         } catch (ParseException e) {
             e.printStackTrace();
         }*/
-       // b8.b8();
+        //b8.b8();
         /*try {
             b9.b9();
         } catch (IOException e) {
             e.printStackTrace();
         }*/
-
+/*
         try {
             b10.b10();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 
