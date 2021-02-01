@@ -7,7 +7,7 @@ public class JavaB10 {
     public void b10() throws IOException {
         String arg[] = Main.arg;
         StringBuffer sb = new StringBuffer("");
-        FileReader reader=null;
+        FileReader reader = null;
         BufferedReader br = null;
         try {
 
@@ -19,14 +19,28 @@ public class JavaB10 {
                 sb.append(str + "\n");
                 System.out.println(str);
             }
-        }
-        catch (FileNotFoundException e) {
+            br.close();
+            reader.close();
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.out.println("找不到檔案");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            reader.close();
-            br.close();
+            if( reader != null ) {
+                try {
+                    reader.close();
+                } catch( IOException ioe ) {
+                    ioe.printStackTrace();
+                }
+            }
+            if( br != null ) {
+                try {
+                    br.close();
+                } catch( IOException ioe ) {
+                    ioe.printStackTrace();
+                }
+            }
             System.out.println("檔案已關閉");
         }
     }
